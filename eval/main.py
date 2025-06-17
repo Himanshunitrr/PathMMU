@@ -4,7 +4,7 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation import GenerationConfig
 
-from utils.general_utils import *
+
 from utils.data_utils import load_yaml, get_pathmmu_data, construct_prompt, save_json, CAT_SHORT2LONG
 from utils.model_utils import call_blip2_engine_df, call_llava_engine_df, call_QwenVL_engine_df,\
     blip_image_processor, llava_image_processor
