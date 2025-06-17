@@ -1,6 +1,6 @@
 import torch
 from tqdm import tqdm
-
+import argparse
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation import GenerationConfig
 
@@ -43,7 +43,7 @@ def run_model(samples, model, call_model_engine_fn=None, tokenizer=None):
 
 
 def main():
-    parser = ArgumentParser()
+    parser = argparse.ArgumentParser()
     parser.add_argument('--exp_name', type=str, default='',
                         help='The name of the experiment')
     parser.add_argument('--config_path', type=str, default="configs/blip2_t5.yaml")
