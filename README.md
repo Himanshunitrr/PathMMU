@@ -48,7 +48,7 @@ Please place the downloaded data into the `data` folder.
 ```
 conda create -n pathmmmu python=3.8.13 
 conda activate pathmmmu
-pip install -r requirements
+pip install -r requirements.txt
 
 # install up-to-date lavis
 cd ./eval/src
