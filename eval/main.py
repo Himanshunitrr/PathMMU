@@ -1,5 +1,6 @@
 import torch
 from tqdm import tqdm
+import os
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation import GenerationConfig
