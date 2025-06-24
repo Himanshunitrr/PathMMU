@@ -46,8 +46,8 @@ Please place the downloaded data into the `data` folder.
 #### To run BLIP2 and InstructBLIP models
 
 ```
-conda create -n pathmmmu python=3.8.13 
-conda activate pathmmmu
+conda create -n pathmmu python=3.8.13 
+conda activate pathmmu
 pip install -r requirements
 
 # install up-to-date lavis
